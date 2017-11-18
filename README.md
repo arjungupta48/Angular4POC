@@ -1,2 +1,2 @@
 # Angular4POC
-hands on Angular4
+hands on Angular4.
