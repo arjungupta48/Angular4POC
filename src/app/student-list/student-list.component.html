@@ -1,0 +1,26 @@
+<h2>Student List</h2><br/>
+
+<ul *ngFor= "let student of students">
+  <li>Id: {{student.id}}</li>
+  <li>Name: {{student.name}}</li>
+  <li>Gender: {{student.gender}}</li>
+</ul>
+
+<!--<table datatable class="row-border hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Gender</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor= "let student of students">
+      <td>{{student.id}}</td>
+      <td>{{student.name}}</td>
+      <td>{{student.gender}}</td>
+    </tr>
+  </tbody>
+</table>-->
+
+<!--search/asc desc filter does not works in datable here-->

@@ -1,0 +1,27 @@
+<div id="fullPage">
+	<app-header></app-header>
+
+	<div style="padding:5px">
+<ul class="nav nav-tabs">
+	<li routerLinkActive="active">
+		<a routerLink="/dashboard">Dashboard</a>
+	</li>
+	<li routerLinkActive="active">
+		<a routerLink="/employees">Employee Details</a>
+	</li>
+	<li routerLinkActive="active">
+		<a routerLink="/students-list">Student Details</a>
+	</li>
+	<li routerLinkActive="active">
+		<a routerLink="/browser">Browser Details</a>
+	</li>
+	<li routerLinkActive="active">
+		<a routerLink="/contact">Contact us</a>
+	</li>
+</ul>
+<br/>
+<router-outlet></router-outlet>
+</div>
+
+<app-footer></app-footer>
+</div>

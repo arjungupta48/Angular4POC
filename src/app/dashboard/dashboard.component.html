@@ -1,0 +1,9 @@
+<p>
+  You are now authenticated! <br/>
+</p>
+
+<h2>Angular versions: </h2>
+<ul>
+  <li *ngFor = "let item of collection | paginate: {itemsPerPage:20, currentPage: p}"> {{item}} </li>
+<ul>
+<pagination-controls (pageChange)="p =$event"> </pagination-controls>
