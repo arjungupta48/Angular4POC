@@ -1,10 +1,12 @@
 <h2>Student List</h2><br/>
-
-<ul *ngFor= "let student of students">
-  <li>Id: {{student.id}}</li>
-  <li>Name: {{student.name}}</li>
-  <li>Gender: {{student.gender}}</li>
-</ul>
+<input class="btn btn-primary" type="button" value="{{showHideValue}}" (click)="canShowData()"><br/><br/>
+<div *ngIf = "showHide">
+  <ul *ngFor="let student of students">
+    <li>Id: {{student.id}}</li>
+    <li>Name: {{student.name}}</li>
+    <li>Gender: {{student.gender}}</li>
+  </ul>
+</div>
 
 <!--<table datatable class="row-border hover">
   <thead>
